@@ -1,21 +1,55 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>DevOps Learning Portal</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-<h1>Welcome to My DevOps Learning Portal</h1>
+{% block content %}
 
-<p>This portal will contain:</p>
+<h1>Welcome to DevOps Learning Portal</h1>
 
-<ul>
-    <li>Roadmaps</li>
-    <li>Study Materials</li>
-    <li>Interview Questions</li>
-    <li>Projects</li>
-    <li>Notes</li>
-</ul>
+<p>
+My personal knowledge portal for DevOps, Cloud, AI and Software Engineering.
+</p>
 
-</body>
-</html>
+<div class="row">
+
+    <div class="col-md-4">
+
+        <div class="card">
+
+            <div class="card-body">
+
+                <h5>Current Focus</h5>
+
+                <ul>
+                    <li>Python</li>
+                    <li>Linux</li>
+                    <li>Git</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+
+        <div class="card">
+
+            <div class="card-body">
+
+                <h5>Upcoming Topics</h5>
+
+                <ul>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Terraform</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
