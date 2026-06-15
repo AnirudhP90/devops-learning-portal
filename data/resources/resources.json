@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "name": "AWS Documentation",
+      "url": "https://docs.aws.amazon.com"
+    },
+    {
+      "name": "Docker Documentation",
+      "url": "https://docs.docker.com"
+    },
+    {
+      "name": "Kubernetes Documentation",
+      "url": "https://kubernetes.io/docs"
+    }
+  ]
+}

@@ -2,8 +2,35 @@
 
 {% block content %}
 
-<h1>Notes</h1>
+<h1>Notes Repository</h1>
 
-<p>Personal notes repository.</p>
+<div class="row">
+
+{% for note in notes %}
+
+<div class="col-md-4 mb-3">
+
+    <div class="card">
+
+        <div class="card-body">
+
+            <h5>{{ note.title }}</h5>
+
+            <p>
+                <strong>Category:</strong>
+                {{ note.category }}
+            </p>
+
+            <p>{{ note.description }}</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endfor %}
+
+</div>
 
 {% endblock %}

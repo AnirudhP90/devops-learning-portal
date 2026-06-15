@@ -32,8 +32,14 @@ def study_materials():
 
 @app.route("/notes")
 def notes():
-    return render_template("notes.html")
 
+    with open("data/notes/notes.json") as f:
+        notes_data = json.load(f)
+
+    return render_template(
+        "notes.html",
+        notes=notes_data["notes"]
+    )
 
 @app.route("/interview-questions")
 def interview_questions():
@@ -44,6 +50,16 @@ def interview_questions():
 def projects():
     return render_template("projects.html")
 
+@app.route("/resources")
+def resources():
+
+    with open("data/resources/resources.json") as f:
+        resource_data = json.load(f)
+
+    return render_template(
+        "resources.html",
+        resources=resource_data["resources"]
+    )
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)

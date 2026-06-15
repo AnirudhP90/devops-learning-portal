@@ -1,0 +1,19 @@
+{
+  "notes": [
+    {
+      "title": "Linux Basics",
+      "category": "Linux",
+      "description": "Important Linux commands and concepts."
+    },
+    {
+      "title": "Git Fundamentals",
+      "category": "Git",
+      "description": "Git workflow, commits, branching."
+    },
+    {
+      "title": "Python Basics",
+      "category": "Python",
+      "description": "Python concepts for automation."
+    }
+  ]
+}
