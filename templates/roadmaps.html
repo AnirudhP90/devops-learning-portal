@@ -14,12 +14,23 @@
 
             <div class="card-body">
 
-                <h5>{{ roadmap.name }}</h5>
+		 <h5>{{ roadmap.name }}</h5>
 
-                <p>Status: {{ roadmap.status }}</p>
+   		<p>Status: {{ roadmap.status }}</p>
 
-            </div>
+    		<div class="progress">
 
+       			 <div class="progress-bar"
+            		 role="progressbar"
+            		 style="width: {{ roadmap.progress }}%">
+
+            		{{ roadmap.progress }}%
+
+       		 </div>
+
+    	</div>
+
+	</div>
         </div>
 
     </div>

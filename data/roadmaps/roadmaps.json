@@ -1,0 +1,46 @@
+{
+  "roadmaps": [
+    {
+      "id": "python",
+      "name": "Python",
+      "status": "In Progress",
+      "progress": 40
+    },
+    {
+      "id": "linux",
+      "name": "Linux",
+      "status": "Completed",
+      "progress": 100
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "status": "Completed",
+      "progress": 100
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "status": "Planned",
+      "progress": 0
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "status": "Planned",
+      "progress": 0
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform",
+      "status": "Planned",
+      "progress": 0
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "status": "In Progress",
+      "progress": 30
+    }
+  ]
+}
