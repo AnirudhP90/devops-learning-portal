@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "topic": "Linux",
+      "question": "What is the difference between a hard link and a soft link?"
+    },
+    {
+      "topic": "Docker",
+      "question": "What is the difference between an image and a container?"
+    },
+    {
+      "topic": "AWS",
+      "question": "What is the difference between an Application Load Balancer and a Network Load Balancer?"
+    },
+    {
+      "topic": "Kubernetes",
+      "question": "What is a Pod?"
+    },
+    {
+      "topic": "Terraform",
+      "question": "What is Terraform state?"
+    }
+  ]
+}

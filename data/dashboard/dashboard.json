@@ -6,5 +6,10 @@
   "upcoming_topics": [
     "AWS",
     "Jenkins"
-  ]
+  ],
+  "stats": {
+    "completed": 2,
+    "in_progress": 2,
+    "planned": 3
+  }
 }

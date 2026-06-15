@@ -43,8 +43,16 @@ def notes():
 
 @app.route("/interview-questions")
 def interview_questions():
-    return render_template("interview_questions.html")
 
+    with open(
+        "data/interview_questions/interview_questions.json"
+    ) as f:
+        question_data = json.load(f)
+
+    return render_template(
+        "interview_questions.html",
+        questions=question_data["questions"]
+    )
 
 @app.route("/projects")
 def projects():
