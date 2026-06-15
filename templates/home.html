@@ -4,24 +4,24 @@
 
 <h1>Welcome to DevOps Learning Portal</h1>
 
-<p>
-My personal knowledge portal for DevOps, Cloud, AI and Software Engineering.
-</p>
-
 <div class="row">
 
-    <div class="col-md-4">
+    <div class="col-md-6">
 
         <div class="card">
 
             <div class="card-body">
 
-                <h5>Current Focus</h5>
+                <h4>Current Focus</h4>
 
                 <ul>
-                    <li>Python</li>
-                    <li>Linux</li>
-                    <li>Git</li>
+
+                {% for topic in dashboard.current_focus %}
+
+                    <li>{{ topic }}</li>
+
+                {% endfor %}
+
                 </ul>
 
             </div>
@@ -30,18 +30,22 @@ My personal knowledge portal for DevOps, Cloud, AI and Software Engineering.
 
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-6">
 
         <div class="card">
 
             <div class="card-body">
 
-                <h5>Upcoming Topics</h5>
+                <h4>Upcoming Topics</h4>
 
                 <ul>
-                    <li>Docker</li>
-                    <li>Kubernetes</li>
-                    <li>Terraform</li>
+
+                {% for topic in dashboard.upcoming_topics %}
+
+                    <li>{{ topic }}</li>
+
+                {% endfor %}
+
                 </ul>
 
             </div>
